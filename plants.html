@@ -14,6 +14,23 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-md navbar-light bg-light ">
+    <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div> 
+</nav>
+
 <h1>Plants by Yogesh Mahareddy</h1>
 
 <div class="container">
@@ -149,6 +166,27 @@
             <a class="dropdown-item" href="advanced.html">Advanced Page</a>
         </div>
     </div>
+
+    <br>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" placeholder="Enter your email address:" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+            <label for="plants" class="form-label">Plants</label>
+            <input type="text" placeholder="Enter your plant" class="form-control" for="plants">
+            <div id="plantsChoice" class="form-text">Enter your plant</div>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 
 </body>
 </html>
